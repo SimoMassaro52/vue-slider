@@ -1,0 +1,36 @@
+
+
+#mainbox img{
+    height: 425px;
+    width: 100%;
+}
+
+#thumbnailsbox img{
+    height: calc(425px / 5);
+    width: 100%;
+}
+
+#textbox{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+.active{
+    display: block !important;
+}
+
+#freccia-su, #freccia-giu{
+    position: absolute;
+    background-color: white;
+}
+
+#freccia-su{
+    top: 0;
+    right: 70px;
+} 
+
+#freccia-giu{
+    bottom: 0;
+    right: 70px;
+}
